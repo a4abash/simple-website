@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" type="text/css" href="default.css">
 
-        <link id="theme-style" rel="stylesheet" type="text/css" href="#">
+        <link id="theme-style" rel="stylesheet" type="text/css" href=" ">
 
     </head>
     <body>
@@ -25,15 +25,9 @@
                 <div class="intro-wrapper">
                     <div class="nav-wrapper">
                         <div class="dots-wrapper">
-                           <div id="dot-1" class="browser-dot">
-
-                           </div>
-                           <div id="dot-2" class="browser-dot">
-
-                            </div>
-                            <div id="dot-3" class="browser-dot">
-
-                            </div>
+                            <div id="dot-1" class="browser-dot"></div>
+                            <div id="dot-2" class="browser-dot"></div>
+                            <div id="dot-3" class="browser-dot"></div>
                         </div>
                         
                         <ul id="navigation">
@@ -46,10 +40,10 @@
                         <h5 style="text-align: center;line-height: 0;">Personalized Theme</h5>
 
                         <div id="theme-optins-wrapper">
-                            <div id="light-mode" class="theme-dot"></div>
-                            <div id="blue-mode" class="theme-dot"></div>
-                            <div id="green-mode" class="theme-dot"></div>
-                            <div id="purple-mode" class="theme-dot"></div>
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                         </div>
 
                         <p id="settings-none">Theme setting will be saved for<br> your next visit
@@ -191,6 +185,7 @@
             </div>
         </section>
 
+        <script type="text/javascript" src="script.js"></script>
         
     </body>
 </html>
