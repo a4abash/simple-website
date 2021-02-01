@@ -10,7 +10,7 @@
     --themeDotBorder: #24291e;
 
     --previewBg:rgb(251, 249, 243, 0.8);
-    --previewShadow: #dec4a4;
+    --previewShadow: #f0ead6;
     --buttonColor:#000;
 }
 
@@ -90,12 +90,16 @@ h1{font-size: 56px;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: (var(--mainColor));
+    background-color: (var(--mainText));
 }
 
 #navigation{
     margin: 0;
     padding: 10px;
+}
+
+#navigation a{
+    color: var(--mainText);
 }
 
 #navigation li{
